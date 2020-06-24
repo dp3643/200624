@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>블루베리</title>
+  <style>
+    .lv01{font-weight:800;font-size: 32px;color: #333333;}
+    /* 상속되어 lv01 자손 영향 미칠수 있음 .lv01(한칸 띄우기-">ol>").lv02 이러면 적용 됨*/
+    .lv01 .lv02{font-size: 24px;}
+    .lv03{font-size: 18px;font-weight: 500;}
+  </style>
+  <style>
+    .co_base{
+      color:#333333;
+    }
+  </style>
+</head>
+<body>
+  <h1>블루베리</h1>
+  <ol>
+    <li class="lv01">개요</li>
+    <li class="lv01">상세
+      <ol>
+        <li class="lv02">효용성</li>
+        <li class="lv02">식용법</li>
+        <li class="lv02">종류
+          <ol>
+            <li class="lv03">로(우)부시</li>
+            <li class="lv03">반수고 하이부시</li>
+            <li class="lv03">북부 하이부시</li>
+            <li class="lv03">남부 하이부시</li>
+            <li class="lv03">래빗아이</li>
+            <li class="lv03">기타</li>
+          </ol>
+        </li>
+        <li class="lv02">특성 및 재배법</li>
+        <li class="lv02">기타</li>
+        <li class="lv02">대중문화 속의 블루베리</li>
+        <li class="lv02">SBS CNBC 프로그램</li>
+      </ol>
+    </li>
+  </ol>
+</body>
+</html>

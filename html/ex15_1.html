@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>스타일2</title>
+  <style>
+    #first_p{color: black;}
+    #last_p{color: magenta;}
+    h1{color: green;}
+    /* *>전체선택자 우선순위 "h1(태그 선택자)>*" */
+    *{font-size: 20px;color: red;}
+    .font_blue{color: blue;}
+    .font_red{color: red;}
+    .font_green{color: green;}
+    
+  </style>
+</head>
+<body>
+  <h1 class="font_red">인라인 스타일</h1>
+  <h2 class="font_green">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos corporis laudantium ullam sunt voluptas itaque nesciunt possimus aut voluptatem minus sit asperiores illo rem esse expedita laborum velit, similique sint.</h2>
+  <h3 class="font_blue">eeeeee</h3>
+  <p id="first_p">ㄹㄹㄹㄹㄹㄹㄹgadfgamet consectetur adn natus sint eligendi laboriosam ducimus sed.</p>
+  <p id="last_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, iste architecto dolore saepe, nobis doloremque magnam veritatis suscipit ipsam non porro qui voluptatum libero esse dolor atque necessitatibus! Laborum, dolore?</p>
+  <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eligendi qui porro. Quia laboriosam ipsam doloribus autem vel? Deserunt recusandae maiores molestiae rem. Quae tempore officiis repudiandae rem, assumenda quibusdam.</h4>
+
+</body>
+</html>
+<!-- css선택자 우선순위 (ID>Class>Tag>*) -->

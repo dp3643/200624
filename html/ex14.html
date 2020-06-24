@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>스타일</title>
+  <!-- 내부 스타일 -->
+  <style>
+    body>h1{color: red;}
+    /* 이러면 바디붙은애가 우선순위 */
+    h1{color: green;}
+    /* h1{color: green !important} 이건 강제 */
+  </style>
+</head>
+<body>
+  <h1>인라인 스타일</h1>
+  <h2>내부 스타일</h2>
+ <!-- t스타일이 바로 들어가 있다>인라인//////인라인>내부=외부 -->
+  <h3>외부 스타일</h3>
+</body>
+</html>
